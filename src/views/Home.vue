@@ -43,7 +43,7 @@
                  ethical leadership and accountability.
               </v-col>
             <v-col md="4" align-self="start">
-            <v-img src="@/assets/mask1.png" max-width="300"></v-img>
+            <v-img src="@/assets/sculpt.png" max-height="400" contain></v-img>
             </v-col>
             </v-row>
           </v-card-text>
@@ -63,7 +63,7 @@
                 with the other communities of the world.
               </v-col>
             <v-col md="4" align-self="start">
-            <v-img src="@/assets/mask1.png" max-width="250"></v-img>
+            <v-img src="@/assets/family.png" max-height="400" contain></v-img>
             </v-col>
             </v-row>
           </v-card-text>
@@ -82,7 +82,7 @@
                 leadership/advocacy program.
               </v-col>
             <v-col md="4" align-self="start">
-            <v-img src="@/assets/mask1.png" max-width="250"></v-img>
+            <v-img src="@/assets/mask1.png" max-height="400" contain></v-img>
             </v-col>
             </v-row>
           </v-card-text>
