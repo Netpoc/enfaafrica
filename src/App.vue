@@ -26,14 +26,8 @@
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
-    
-    
     <v-content>
-      
-      
-        
     <router-view/>
-      
     </v-content>
     <v-btn
       bottom
@@ -85,7 +79,7 @@
         <v-divider vertical></v-divider>
         <v-btn
         icon
-        href="https://api.whatsapp.com/send?phone=2348118300383"
+        href="https://api.whatsapp.com/send?phone="
         >
           <v-icon size="24px">mdi-whatsapp</v-icon>
         </v-btn>
@@ -93,7 +87,7 @@
       <br>
 
 
-        &copy; {{ new Date().getFullYear() }} | <strong>Netpoc Inc.</strong>
+        &copy; {{ new Date().getFullYear() }} | <strong>ENFA</strong>
     </v-col>
   </v-row>
 </v-card>

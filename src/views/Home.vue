@@ -1,12 +1,94 @@
 <template>
   <v-container fluid>
-    <v-row align="start" justify="space-between">
+    <v-row align="center" no-gutters justify="center">
       <v-col md="3">
         <v-img src="@/assets/ENFA.png" max-width="350"></v-img>
       </v-col>
       <v-col md="8">
-        
+        <v-toolbar flat>
+            
+            <v-spacer></v-spacer>
+            <v-btn text>Home</v-btn>
+            <v-btn text>Mission and Vision</v-btn>
+            <v-btn text>Projects</v-btn>
+            <v-btn text>Contact Us</v-btn>
+            
+          </v-toolbar>
       </v-col>
     </v-row>
+    <v-row class="mt-5" align="center" justify-md="space-around">
+      <v-tabs vertical>
+      <v-tab>
+        <strong>Proud</strong>
+      </v-tab>
+      <v-tab>
+        <strong>Jealous</strong>
+        
+      </v-tab>
+      <v-tab>
+       <strong>Resolved</strong>
+        
+      </v-tab>
+
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <v-row align="start" justify="space-around">
+              <v-col md="6" align-self="center">
+                Proud of our Pan-African, an enriching feature of our Pan-African identity, 
+                but profoundly aware of the imperative need to further consolidate our unity 
+                and identity, solemnly declare that we constitute one and the same believe, 
+                bound by the same destiny and assert our firm determination to build the 
+                African community on the basis of the ideals of advocacy,policy development,
+                 ethical leadership and accountability.
+              </v-col>
+            <v-col md="4" align-self="start">
+            <v-img src="@/assets/mask1.png" max-width="300"></v-img>
+            </v-col>
+            </v-row>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <v-row align="start" justify="space-around">
+              <v-col md="6" align-self="center">
+                Jealous of our hard-won spirit of unity and resolved to preserve 
+                same, convinced that the growth and development of Africa lies 
+                in the forging ever growing bonds of solidarity among African 
+                people, affirm our desire to contribute to the advent of a developed 
+                Ethical African leadership/advocacy framework, while maintaining peace, 
+                human rights,social justice,good governance and brotherly relations 
+                with the other communities of the world.
+              </v-col>
+            <v-col md="4" align-self="start">
+            <v-img src="@/assets/mask1.png" max-width="250"></v-img>
+            </v-col>
+            </v-row>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item>
+        <v-card flat>
+          <v-card-text>
+            <v-row align="start" justify="space-around">
+              <v-col md="6" align-self="center">
+                Resolved to establish an International Civil Society 
+                Organization in order to ensure the well-being of every 
+                African indigene without discrimination, to devote all 
+                our efforts to that end, declare our readiness to cooperate 
+                with all stakeholders that desire to participate in this 
+                leadership/advocacy program.
+              </v-col>
+            <v-col md="4" align-self="start">
+            <v-img src="@/assets/mask1.png" max-width="250"></v-img>
+            </v-col>
+            </v-row>
+          </v-card-text>
+        </v-card>
+      </v-tab-item>
+    </v-tabs>
+    </v-row>  
   </v-container>
 </template>
