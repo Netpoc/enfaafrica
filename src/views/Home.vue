@@ -12,7 +12,7 @@
             <v-btn text to="/">Home</v-btn>
             <v-btn text>Mission and Vision</v-btn>
             <v-btn text>Projects</v-btn>
-            <v-btn text to="/Member">Membership</v-btn>
+            <v-btn text to="/Membership">Membership</v-btn>
             <v-btn text>Contact Us</v-btn>
             </v-toolbar-items>
             <v-app-bar-nav-icon
