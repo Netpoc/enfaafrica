@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <v-row align="center" no-gutters justify="center">
+    <v-row align="center" no-gutters justify="space-around">
       <v-col md="3">
         <v-img src="@/assets/ENFA.png" max-width="350"></v-img>
       </v-col>
@@ -89,6 +89,49 @@
         </v-card>
       </v-tab-item>
     </v-tabs>
+    </v-row>
+    <v-row align="center" justify="center">
+      <p class="display-2">Our Values</p>
+    </v-row>
+    <v-row justify="space-around">
+      <v-col md="3">
+        <v-img src="@/assets/strength.png" max-height="400" contain></v-img>
+      </v-col>
+      <v-col md="8" class="text-justify">
+        <ul>
+          <li>
+           MUTUAL RESPECT,<br> requiring them to recognize the 
+           innate worth of all people and the value of diversity
+          </li>
+          <li>
+            EQUITY AND JUSTICE,<br> requiring them to work to ensure equal 
+            opportunity for everyone, irrespective of race, age, 
+            gender, sexual orientation, HIV status, color, 
+            class, ethnicity, disability, location or religion
+          </li>
+          <li>
+            HONESTY AND TRANSPARENCY,<br> being accountable at all levels 
+            for the effectiveness of their actions and open in their 
+            judgments and communications with others
+          </li>
+          <li>
+            SOLIDARITY WITH THE POOR, POWERLESS AND EXCLUDED<br> shall 
+            be the only bias in their commitment to the fight against poverty
+          </li>
+          <li>
+            COURAGE OF CONVICTION,<br> requiring them to be creative and radical, 
+            bold and innovative  without fear of failure  in pursuit of making 
+            the greatest possible impact on the causes of poverty
+          </li>
+          <li>
+            INDEPENDENCE from any religious or party-political affiliation
+          </li>
+          <li>
+            HUMILITY in their presentation and behavior, recognizing that they are 
+            part of a wider alliance against poverty.
+          </li>
+        </ul>
+      </v-col>
     </v-row>  
   </v-container>
 </template>
