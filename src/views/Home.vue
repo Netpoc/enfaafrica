@@ -1,22 +1,27 @@
 <template>
   <v-container fluid>
-    <v-row align="center" no-gutters justify="space-around">
-      <v-col md="3">
+    <v-row align="center">
+      <v-col md="4">
         <v-img src="@/assets/ENFA.png" max-width="350"></v-img>
       </v-col>
-      <v-col md="8">
+      <v-spacer />
+      <v-col cols="auto" align-self="center" justify="end">
         <v-toolbar flat>
-            
+            <v-toolbar-items class="hidden-sm-and-down">
             <v-spacer></v-spacer>
             <v-btn text>Home</v-btn>
             <v-btn text>Mission and Vision</v-btn>
             <v-btn text>Projects</v-btn>
             <v-btn text>Contact Us</v-btn>
-            
+            </v-toolbar-items>
+            <v-app-bar-nav-icon
+              @click.stop="drawer = !drawer"
+            ></v-app-bar-nav-icon>
           </v-toolbar>
       </v-col>
     </v-row>
     <v-row class="mt-5" align="center" justify-md="space-around">
+      <v-col cols="auto">
       <v-tabs vertical>
       <v-tab>
         <strong>Proud</strong>
@@ -89,7 +94,9 @@
         </v-card>
       </v-tab-item>
     </v-tabs>
+      </v-col>
     </v-row>
+    <v-divider class="ma-5"></v-divider>
     <v-row align="center" justify="center">
       <p class="display-2">Our Values</p>
     </v-row>
