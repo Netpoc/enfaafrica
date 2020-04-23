@@ -21,6 +21,15 @@ Vue.use(VueRouter)
   },
   {
     path: '/Membership',
+    meta: {
+      title: 'Membership | Executive Network For Africa',
+      metaTags:[
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1.0',
+        },
+        
+      ]},
     name: 'Member',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
