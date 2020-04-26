@@ -39,7 +39,7 @@ Vue.use(VueRouter)
   {
     path: '/Contact',
     meta: {
-      title: 'Membership | Executive Network For Africa',
+      title: 'Contact Us | Executive Network For Africa',
       metaTags:[
         {
           name: 'viewport',
