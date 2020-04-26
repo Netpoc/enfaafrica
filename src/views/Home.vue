@@ -13,7 +13,7 @@
             <v-btn text>Mission and Vision</v-btn>
             <v-btn text>Projects</v-btn>
             <v-btn text to="/Membership">Membership</v-btn>
-            <v-btn text>Contact Us</v-btn>
+            <v-btn text to="/Contact">Contact Us</v-btn>
             </v-toolbar-items>
             <v-app-bar-nav-icon
               @click.stop="drawer = !drawer"

@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
     <topBar />
-    <v-row justify="center">
+    <v-row align="center" justify="center">
       <p class="display-2 ma-5">Membership</p>
     </v-row>
     <v-row align="center" justify="space-around">
@@ -11,7 +11,7 @@
       <v-col md="7">
         <v-carousel
           cycle
-          height="500"
+          height="400"
           show-arrows-on-hover
           hide-delimiter-background
           align="center"
@@ -80,10 +80,12 @@
           </v-carousel-item>
 
         </v-carousel>
-        
-          
+
       </v-col>
     </v-row>
+    <v-row>
+
+      </v-row>
   </v-container>
 </template>
 <script>
