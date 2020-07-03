@@ -8,13 +8,15 @@
             </v-col>
             <v-col md="5">
                 <v-form>
-                    <v-text-field label="Full Name" prepend-icon="mdi-account">
+                    <v-text-field label="Full Name" 
+                    clearable
+                    prepend-icon="mdi-account">
                     </v-text-field>
-                    <v-text-field label="Email" prepend-icon="mdi-at">
+                    <v-text-field label="Email" clearable prepend-icon="mdi-at">
                     </v-text-field>
-                    <v-text-field label="Phone" prepend-icon="mdi-phone">
+                    <v-text-field type="number" clearable label="Phone" prepend-icon="mdi-phone">
                     </v-text-field>
-                    <v-text-field label="Subject" prepend-icon="mdi-message-text">
+                    <v-text-field label="Subject" clearable prepend-icon="mdi-message-text">
                     </v-text-field>
                     <v-textarea rows="3" label="Message goes here...">
                     </v-textarea>

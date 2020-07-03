@@ -1,8 +1,30 @@
 <template>
   <v-container fluid>
+    <v-navigation-drawer
+      width="200"
+      v-model="drawer"
+      absolute
+      dark
+      temporary
+    >
+      <v-list dense>
+        <v-list-item-group >
+          <v-list-item-icon>
+            <v-icon> </v-icon>
+          </v-list-item-icon>
+          <v-list-item-content class="ma-1">
+            <v-btn text to="/">Home</v-btn>
+            <v-btn text to="/Team">About Us</v-btn>
+            <v-btn text to="/Services">Projects </v-btn>
+            <v-btn text to="/Membership">Membership</v-btn>
+            <v-btn text to="/Contact">Contact Us</v-btn>
+          </v-list-item-content>
+        </v-list-item-group>
+      </v-list>
+    </v-navigation-drawer>
     <v-row align="center">
       <v-col md="4">
-        <v-img src="@/assets/ENFA.png" max-width="350"></v-img>
+        <v-img src="@/assets/ENFA.png" max-width="260"></v-img>
       </v-col>
       <v-spacer />
       <v-col cols="auto" align-self="center" justify="end">
